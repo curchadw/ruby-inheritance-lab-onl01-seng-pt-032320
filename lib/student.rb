@@ -3,7 +3,7 @@ class Student < User
   attr_accessor :knowledge
 
   def initialize
-    @nnowledge = Array.new
+    @knowledge = Array.new
   end
 
 
