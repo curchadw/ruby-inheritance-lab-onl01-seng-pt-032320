@@ -6,5 +6,5 @@ class Teacher < User
     today = KNOWLEDGE[rand(KNOWLEDGE.length)]
     today
   end
-  
+
 end
