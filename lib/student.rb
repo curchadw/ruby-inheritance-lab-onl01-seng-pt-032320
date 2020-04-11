@@ -6,5 +6,13 @@ class Student < User
     @knowledge = Array.new
   end
 
+  def learn(string)
+    @knowledge.push(string)
+  end
+
+  def knowledge
+    @knowledge
+  end
+
 
 end
